@@ -7,7 +7,7 @@ void dnf_sort(int a[], int n)
 {
     int low = 0, mid = 0, high = n - 1;
 
-    // Iterate till all the elements are sorted
+    // Iterate till all the elements are sorted in ascending order
     while (mid <= high)
     {
         if (a[mid] == 0)
